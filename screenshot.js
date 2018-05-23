@@ -6,7 +6,7 @@ function setup() { // 最初に1回だけ実行される
   ellipse(width/2,height/2,100,100);
   function saveFrame(e){
     if(e.keyCode==13){
-      saveFrames('generative_art','jpg',2,2); // saveFrames(filename,extension,duration,framerate,[callback])
+      saveFrames('generative_art','jpg',1,1); // saveFrames(filename,extension,duration,framerate,[callback])
       // 第4引数を↑→枚数↓、↓→枚数↓、上記だと1枚だけスクショ
     }
   }
