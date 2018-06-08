@@ -1,6 +1,6 @@
 function setup() { // 最初に1回だけ実行される
   var canvas = createCanvas(300,300); // ここでwidth,height変数に値が代入される
-  canvas.parent("dad");
+  canvas.parent("dad"); // どのidを持つ要素の直下に配置するかを明記
   background(255);
   stroke(200,0,0); // 円や線の色を決める,第4引数にアルファ値を取れる
   fill(200,0,0); // ellipseの中の色を決める,第4引数にアルファ値を取れる
